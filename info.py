@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '16681004'))
-API_HASH = environ.get('API_HASH', '161b61f5a06dd299a3d88a3384b9f104')
+API_ID = int(environ.get('API_ID', '14350423'))
+API_HASH = environ.get('API_HASH', '838b0b81758d276215b3647821b707ad')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yogeshpandit253642:Mw99ngQsePS0doAj@cluster0.2l4gz99.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rgboy352:<maderchod yt>@cluster0.cehpl5x.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "vkbotsthalpathy")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -61,7 +61,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deendayal_dhakad1')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002090431700'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001999208149'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Deendayal_dhakad')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
